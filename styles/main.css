@@ -1,0 +1,43 @@
+.container {
+  margin-top: 50px;
+  width: 450px;
+  height: 500px;
+  background-image: url("../styles/images/phone.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  padding-top: 100px;
+  padding-left: 106px;
+}
+.backgroundBlock {
+  position: absolute;
+  width: 180px;
+  height: 387px;
+  background-color: black;
+  left: 46px;
+  top: 11px;
+  border-radius: 20px;
+  z-index: -10;
+}
+#greenBlock {
+  position: absolute;
+  left: 47px;
+  top: 11px;
+  width: 178px;
+  height: 387px;
+  border-radius: 20px;
+  background-color: green;
+  z-index: -1;
+  display: none;
+}
+h1,
+h2 {
+  color: white;
+}
+h1 {
+  font-size: 100px;
+}
+h2 {
+  font-weight: 400;
+  margin-left: -13px;
+}
